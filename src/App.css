@@ -1,0 +1,150 @@
+.center_pic {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./slide.jpg");   
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 3%;
+}
+
+.color-white{
+    color: white;
+}
+
+@media(min-width: 750px){ 
+    .coustom-card {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+}
+
+.mycard {
+    width: 96% !important;
+}
+
+h5 {
+    text-align: center;
+}
+
+@media(min-width: 750px){ 
+    .center {
+        background-color: rgb(240, 236, 236);
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.middle-pic {
+    margin: 10px;
+    width: 85%;
+    height: 85%;
+    text-indent: 10px;
+    border-radius: 12px;
+    margin-left: 8%;
+}
+
+.middle-text {
+    height: 85%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    border-radius: 12px;
+}
+
+.footer {
+    text-align: center;
+    margin: 3%;
+}
+
+@media(min-width: 750px){ 
+    .footer-main {
+        display: flex;
+        padding: 10px;
+    }
+}
+.footer1, .footer2, .footer3 {
+    margin: 10px;
+}
+
+.end {
+    background-color: black;
+    color: white;
+    padding: 5px 0 1px 0;
+    text-align: center;
+}
+
+.navpad {
+    float: right !important;
+}
+
+.section1-img {
+    width: 40%;
+}
+.section2-img {
+    width: 20%;
+    margin: 10px;
+}
+
+.about {
+    text-align: center;
+    background-color: rgb(240, 236, 236);
+    padding: 10px;
+
+}
+
+@media(min-width: 750px){ 
+    .main {
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media(min-width: 750px){ 
+    .section2-imgs {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.section2 {
+    background-color: white;
+    padding: 50px;
+    border-radius: 12px;
+    flex: 2;
+}
+
+.section1 {
+    flex: 1;
+}
+
+.about h1 {
+    margin: 10px;
+}
+
+.contact  {
+    text-align: center;
+    margin: 20px;
+}
+
+@media(min-width: 750px){ 
+    .section {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.contact-section1,
+.contact-section2 {
+    padding: 20px;
+}
+.contact-section1 h4, 
+.contact-section2 h4 {
+    padding: 20px;
+}
